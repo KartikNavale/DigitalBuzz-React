@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.custom-calender {
+  width: "375px";
+  height: "450px";
+  box-shadow: "0 12px 30px rgba(5,6,20,0.6)";
+}
+/*scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
